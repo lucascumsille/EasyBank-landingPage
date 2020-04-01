@@ -1,0 +1,28 @@
+{
+  "name": "easybank-landing-page-master",
+  "version": "1.0.0",
+  "description": "EasyBank landing page",
+  "main": "custom.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucascumsille/EasyBank-landingPage.git"
+  },
+  "keywords": [
+    "Banking",
+    "|",
+    "Landing",
+    "page"
+  ],
+  "author": "LucasCmDev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucascumsille/EasyBank-landingPage/issues"
+  },
+  "homepage": "https://github.com/lucascumsille/EasyBank-landingPage#readme",
+  "dependencies": {
+    "bootstrap": "^4.4.1"
+  }
+}
