@@ -281,7 +281,7 @@ $shadow: 0px 0px 0px 0px white;
 
 
 .main-header {
-  height: 60px;
+  height: 60px !important;
   padding-left: 20px;
   padding-right: 20px;
   width: 100%;
@@ -293,7 +293,7 @@ $shadow: 0px 0px 0px 0px white;
     grid-template-rows: 1fr auto 1fr;
     grid-template-columns: 4fr 6fr 2fr;
     align-items: center;
-    height: 80px;
+    height: 80px !important;
 
    
     .logo-section {
@@ -327,25 +327,25 @@ $shadow: 0px 0px 0px 0px white;
   }
 
 
-  #nav-button {
+  .hb-button {
     background-image: url('images/icon-hamburger.svg');
     background-repeat: no-repeat;
+    background-position: center;
     width: 25px !important;
     height: 25px;
     border: none;
     background-color: transparent;
     position: relative;
     float: right;
-    margin-top: 7px;
+    padding: 2px;
 
- /*   &:active {
-      background-image: url('images/icon-close.svg');
-    } */
+
   }
   
   .close {
-    background-image: url('images/icon-close.svg')
+    background-image: url('images/icon-close.svg');
   }
+
 
   @media (max-width: $breakpoint) {
       height: 65px;
